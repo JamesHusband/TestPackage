@@ -1,0 +1,22 @@
+{
+  "name": "testpackage",
+  "version": "1.0.0",
+  "description": "a test package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesHusband/TestPackage.git"
+  },
+  "author": "JamesHusband",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesHusband/TestPackage/issues"
+  },
+  "homepage": "https://github.com/JamesHusband/TestPackage#readme",
+  "publishConfig": {
+    "@JamesHusband:registry": "https://npm.pkg.github.com"
+  }
+}
